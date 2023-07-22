@@ -1,0 +1,88 @@
+.emojiapp {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.filter {
+  margin-bottom: 30px;
+}
+
+.filter-lable {
+  margin: 0 20px;
+}
+
+.emoji-list {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.outer-emoji-card {
+  width: 220px;
+  height: max-content;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 90%;
+  height: 180px;
+  margin: 10px;
+  padding: 14px;
+  border-radius: 8px;
+  background: #deb8878a;
+  color: #257171;
+}
+
+.emoji {
+  font-size: 50px;
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.emoji-details {
+  font-size: 11px;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 2px;
+  width: 80px;
+}
+
+.detail-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.field-tag {
+  margin: 0;
+  width: 30%;
+  height: 15px;
+  display: inherit;
+}
+
+.field-val {
+  display: flex;
+  margin: 0;
+  width: 65%;
+  height: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: start;
+}
+
